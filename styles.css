@@ -1,0 +1,122 @@
+*{
+    color: white;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    background-image: url(salaar.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin: 10px;
+}
+ul li:hover{
+    color:rgb(215, 207, 207);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.firstbar{
+    display: flex;
+    margin-left: 30px;
+}
+.bi{
+    margin: 20px;
+}
+.secondbar{
+    margin-right: 30px;
+}
+.salaar{
+    margin-top: 200px;
+    margin-left: 60px;
+}
+.heading{
+    font-size: 5rem;
+}
+.firstbutton{
+    width: 100px;
+    margin: 0x 20px 0px 20px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+.firstbutton:hover{
+    background-color: rgb(214, 213, 213);
+}
+.secondbutton{
+    width: 150px;
+    margin: 0x 20px 0px 20px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.311);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.secondbutton:hover{
+    background-color: rgba(214, 213, 213, 0.122);
+}
+.container{
+    width: 300px;
+    background-color: black;
+    color: white;
+    transition: 0.2s linear;
+    margin-left: 20px;
+}
+.india{
+    margin-left: 60px;
+    margin-top: 60px;
+}
+.india1{
+    margin-left: 40px;
+}
+.ua{
+    font-size: 1rem ;
+    border: 2px solid white;
+    width: 80px;
+    margin-left:10px ;
+}
+p{
+    margin-left: 10px;
+}
+
+.container:hover {
+    transform: scale(1.2);
+
+}
+.body{
+    display: none;
+}
+.container:hover > .body{
+    display: block;
+}
+.firstrow{
+    display: flex;
+    overflow-x: auto;
+}
+.firstrow::-webkit-scrollbar {
+    display: none;
+}
+
+.firstrow {
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
+}
